@@ -1,0 +1,83 @@
+@SkillToPeerAgregaty.API_HostAddress = http://localhost:5223
+@product1_id = 69b055c8-78e1-4384-bee9-91ae349d69f0
+@order1_id = b1c28c1d-e2be-45ec-8c11-e6d642df44c5
+@user_id = 665ce186-90e3-440e-9882-e3131655b33a
+
+GET {{SkillToPeerAgregaty.API_HostAddress}}/product/{{product1_id}}
+Accept: application/json
+
+###
+
+GET {{SkillToPeerAgregaty.API_HostAddress}}/product
+Accept: application/json
+
+###
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/product
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Product B",
+  "startAmount": 100.50
+}
+
+###
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/product/{{product1_id}}/increase
+Accept: application/json
+Content-Type: application/json
+
+{
+  "amount": 11
+}
+
+###
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/product/{{product1_id}}/reserve
+Accept: application/json
+Content-Type: application/json
+
+{
+  "amount": 1
+}
+
+###
+
+GET {{SkillToPeerAgregaty.API_HostAddress}}/order/{{order1_id}}
+Accept: application/json
+
+###
+
+GET {{SkillToPeerAgregaty.API_HostAddress}}/order
+Accept: application/json
+
+###
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/order
+Accept: application/json
+Content-Type: application/json
+
+{
+  "userId": "{{user_id}}",
+  "items":[
+    {
+      "productId": "{{product1_id}}",
+      "price": 23.47,
+      "amount": 90.50
+    }
+  ]
+}
+
+###
+
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/order/{{order1_id}}/approve
+Accept: application/json
+
+###
+
+POST {{SkillToPeerAgregaty.API_HostAddress}}/order/{{order1_id}}/deliver
+Accept: application/json
+
+###

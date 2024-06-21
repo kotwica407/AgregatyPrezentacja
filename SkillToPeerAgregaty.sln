@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillToPeerAgregaty.Domain", "SkillToPeerAgregaty.Domain\SkillToPeerAgregaty.Domain.csproj", "{A5FFD7A5-3DAF-4ECD-B510-A18F37D0FA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillToPeerAgregaty.Domain.UnitTests", "SkillToPeerAgregaty.Domain.UnitTests\SkillToPeerAgregaty.Domain.UnitTests.csproj", "{28751D10-6C89-4C5D-B5E5-95BBA5805ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillToPeerAgregaty.Application", "SkillToPeerAgregaty.Application\SkillToPeerAgregaty.Application.csproj", "{CA47E726-3BF2-46B9-A67C-1DE4FBB7F19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillToPeerAgregaty.Infrastructure", "SkillToPeerAgregaty.Infrastructure\SkillToPeerAgregaty.Infrastructure.csproj", "{8352C213-17B8-4264-924B-AAB33CF8206E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillToPeerAgregaty.API", "SkillToPeerAgregaty.API\SkillToPeerAgregaty.API.csproj", "{8E3B679E-2C02-415B-AB59-CF96DDADFD82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5FFD7A5-3DAF-4ECD-B510-A18F37D0FA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FFD7A5-3DAF-4ECD-B510-A18F37D0FA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FFD7A5-3DAF-4ECD-B510-A18F37D0FA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FFD7A5-3DAF-4ECD-B510-A18F37D0FA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28751D10-6C89-4C5D-B5E5-95BBA5805ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28751D10-6C89-4C5D-B5E5-95BBA5805ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28751D10-6C89-4C5D-B5E5-95BBA5805ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28751D10-6C89-4C5D-B5E5-95BBA5805ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA47E726-3BF2-46B9-A67C-1DE4FBB7F19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA47E726-3BF2-46B9-A67C-1DE4FBB7F19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA47E726-3BF2-46B9-A67C-1DE4FBB7F19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA47E726-3BF2-46B9-A67C-1DE4FBB7F19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8352C213-17B8-4264-924B-AAB33CF8206E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8352C213-17B8-4264-924B-AAB33CF8206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8352C213-17B8-4264-924B-AAB33CF8206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8352C213-17B8-4264-924B-AAB33CF8206E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E3B679E-2C02-415B-AB59-CF96DDADFD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3B679E-2C02-415B-AB59-CF96DDADFD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3B679E-2C02-415B-AB59-CF96DDADFD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3B679E-2C02-415B-AB59-CF96DDADFD82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97009074-0C3B-4E3D-ADEE-47BF4FE614E0}
+	EndGlobalSection
+EndGlobal
